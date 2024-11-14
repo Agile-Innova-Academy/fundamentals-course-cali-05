@@ -1,0 +1,12 @@
+section {
+  text-align: center;
+  margin: 1rem;
+}
+
+#heroesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  padding: 0.5rem
+}
