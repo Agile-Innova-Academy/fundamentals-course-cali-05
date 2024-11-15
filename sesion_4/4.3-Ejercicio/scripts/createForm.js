@@ -16,4 +16,9 @@ formulario.addEventListener('submit', (e) => {
   }
 
   postData(heroesURL, newHero)
+  window.location = "../index.html"
+      window.scrollTo({
+        top: document.body.scrollHeight,
+        behavior: "smooth"
+      })
 })

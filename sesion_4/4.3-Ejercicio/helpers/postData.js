@@ -9,11 +9,10 @@ export const postData = async (url, data) => {
     })
     console.log(response)
     if (response.status === 201) {
-      window.location = "../index.html"
-      window.
       alert('Item creado exitosamente')
+      window.location = "../index.html"
     }
   } catch (error) {
-    console.error("Ocurrió un error en la operación de lectura: -----> " + error)
+    console.error("Ocurrió un error en la operación de escritura: -----> " + error)
   }
 }

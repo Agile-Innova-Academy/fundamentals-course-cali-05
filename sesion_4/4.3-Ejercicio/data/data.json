@@ -73,15 +73,6 @@
       "image": "https://res.cloudinary.com/duzf4vfki/image/upload/v1627576708/img_heroes/dc-robin_asdzak.jpg"
     },
     {
-      "id": "9",
-      "name": "dc-blue",
-      "superhero": "Blue Beetle",
-      "publisher": "DC Comics",
-      "alter_ego": "Dan Garret",
-      "first_appearance": "Mystery Men Comics #1",
-      "image": "https://res.cloudinary.com/duzf4vfki/image/upload/v1627576708/img_heroes/dc-blue_tk2ccp.jpg"
-    },
-    {
       "id": "10",
       "name": "dc-black",
       "superhero": "Black Canary",
@@ -98,15 +89,6 @@
       "alter_ego": "Peter Parker",
       "first_appearance": "Amazing Fantasy #15",
       "image": "https://res.cloudinary.com/duzf4vfki/image/upload/v1627576713/img_heroes/marvel-spider_vutgrj.jpg"
-    },
-    {
-      "id": "12",
-      "name": "marvel-captain",
-      "superhero": "Captain America",
-      "publisher": "Marvel Comics",
-      "alter_ego": "Steve Rogers",
-      "first_appearance": "Captain America Comics #1",
-      "image": "https://res.cloudinary.com/duzf4vfki/image/upload/v1627576709/img_heroes/marvel-captain_aghcmc.jpg"
     },
     {
       "id": "13",
@@ -156,7 +138,7 @@
     {
       "id": "18",
       "name": "marvel-hawkeye",
-      "superhero": "Hawkeye",
+      "superhero": "Dios Hawkeye",
       "publisher": "Marvel Comics",
       "alter_ego": "Clinton Francis Barton",
       "first_appearance": "Tales of Suspense #57",
@@ -166,31 +148,7 @@
       "id": "244cb2fb-e657-42f6-86d0-a549691a1774",
       "superhero": "Batman",
       "publisher": "DC-Comics",
-      "alter_ego": "Bruce Wayne",
-      "first_appearance": "Batman #1",
-      "image": "https://i.pinimg.com/564x/3d/87/c3/3d87c3f77a7ac3b451794982362073da.jpg"
-    },
-    {
-      "id": "65375a51-f6c4-47eb-bad0-8f39e0f0536f",
-      "superhero": "Batman",
-      "publisher": "DC-Comics",
-      "alter_ego": "Bruce Wayne",
-      "first_appearance": "Batman #1",
-      "image": "https://i.pinimg.com/564x/3d/87/c3/3d87c3f77a7ac3b451794982362073da.jpg"
-    },
-    {
-      "id": "cbb11a14-715a-43dd-aa7d-54d3610a854c",
-      "superhero": "Batman",
-      "publisher": "DC-Comics",
-      "alter_ego": "Bruce Wayne",
-      "first_appearance": "Batman #1",
-      "image": "https://i.pinimg.com/564x/3d/87/c3/3d87c3f77a7ac3b451794982362073da.jpg"
-    },
-    {
-      "id": "cf56465f-92ff-48bb-b019-40359bc6984e",
-      "superhero": "Batman",
-      "publisher": "DC-Comics",
-      "alter_ego": "Bruce Wayne",
+      "alter_ego": "Bruno Meses",
       "first_appearance": "Batman #1",
       "image": "https://i.pinimg.com/564x/3d/87/c3/3d87c3f77a7ac3b451794982362073da.jpg"
     }
