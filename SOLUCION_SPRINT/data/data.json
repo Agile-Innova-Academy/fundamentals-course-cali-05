@@ -1,0 +1,27 @@
+{
+  "pets": [
+    { "id": 1, "nombre": "Max", "tipo": "Perro", "edad": 5 },
+    { "id": 2, "nombre": "Luna", "tipo": "Gato", "edad": 3 },
+    { "id": 3, "nombre": "Charlie", "tipo": "Perro", "edad": 2 },
+    { "id": 4, "nombre": "Bella", "tipo": "Gato", "edad": 4 },
+    { "id": 5, "nombre": "Coco", "tipo": "Ave", "edad": 1 },
+    { "id": 6, "nombre": "Rocky", "tipo": "Perro", "edad": 6 },
+    { "id": 7, "nombre": "Daisy", "tipo": "Conejo", "edad": 2 },
+    { "id": 8, "nombre": "Lola", "tipo": "Perro", "edad": 3 },
+    { "id": 9, "nombre": "Milo", "tipo": "Gato", "edad": 1 },
+    { "id": 10, "nombre": "Ruby", "tipo": "Ave", "edad": 2 },
+    { "id": 11, "nombre": "Buddy", "tipo": "Perro", "edad": 4 },
+    { "id": 12, "nombre": "Simba", "tipo": "Gato", "edad": 5 },
+    { "id": 13, "nombre": "Oscar", "tipo": "Hámster", "edad": 1 },
+    { "id": 14, "nombre": "Mia", "tipo": "Gato", "edad": 3 },
+    { "id": 15, "nombre": "Toby", "tipo": "Perro", "edad": 2 },
+    { "id": 16, "nombre": "Chico", "tipo": "Ave", "edad": 4 },
+    { "id": 17, "nombre": "Oliver", "tipo": "Conejo", "edad": 2 },
+    { "id": 18, "nombre": "Nala", "tipo": "Gato", "edad": 1 },
+    { "id": 19, "nombre": "Pepper", "tipo": "Hámster", "edad": 2 },
+    { "id": 20, "nombre": "Rosie", "tipo": "Perro", "edad": 3 }
+  ],
+  "users": [
+
+  ]
+}

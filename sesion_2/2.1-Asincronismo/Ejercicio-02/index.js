@@ -1,7 +1,6 @@
 const list = document.getElementById('list');
 
 const render = (data) => {
-    console.log(data);
     let child = '';
     data.forEach(element => {
         child += `
