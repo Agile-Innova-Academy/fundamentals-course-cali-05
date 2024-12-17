@@ -1,10 +1,12 @@
-const registerForm = document.getElementById('registerForm');
+import { registerUser } from "../modulos/api.js";
 
-registerForm.addEventListener('submit', (event) => {
+const registerForm = document.getElementById("registerForm");
+
+registerForm.addEventListener("submit", async (event) => {
   event.preventDefault();
-  const name = document.getElementById('name').value;
-  const email = document.getElementById('email').value;
-  const password = document.getElementById('password').value;
+  const name = document.getElementById("name").value;
+  const email = document.getElementById("email").value;
+  const password = document.getElementById("password").value;
 
   // if (!email.endsWith('@agileinnova.org')) {
   //   alert('Su correo debe pertenecer al dominio institucional')
@@ -14,7 +16,14 @@ registerForm.addEventListener('submit', (event) => {
     name,
     email,
     password,
-  }
+  };
 
-  console.log(user)
-})
+  console.log(user);
+  const result = await registerUser(user);
+  if (result) {
+    window.location.href = "../index.html";
+    alert("Usuario se registró con exito");
+  } else {
+    alert("Hubo error al registrarse");
+  }
+});

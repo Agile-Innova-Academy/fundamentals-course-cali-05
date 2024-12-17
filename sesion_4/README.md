@@ -56,3 +56,53 @@ JSON (JavaScript Object Notation) es un formato para organizar información. Fun
 - [.Json](https://jsonplaceholder.typicode.com/photos?_limit=10)
 - [Errores de json-server](https://www.blai.blog/2019/05/habilitar-ejecucion-de-archivos-ps1-en.html)
 - [video](https://egghead.io/lessons/javascript-creating-demo-apis-with-json-server)
+
+
+# Métodos HTTP
+
+1.GET: Se utiliza para obtener datos de un sesrvidor. (No modifican datos en el servidor)
+
+fetch("http://localhost:3000/pets")
+.then(response => response.json())
+.then(data => console.log(data))
+
+
+
+2.POST: Se usa para enviar nuevos datos al servidor (Generalmente se utiliza para crear un nuevo recurso)
+
+fetch("http://localhost:3000/pets", {
+  method: 'POST',
+  body: JSON.stringify({ "id": 21, "nombre": "Lily", "tipo": "Gato", "edad": 8 })
+
+  })
+.then(response => response.json())
+.then(data => console.log(data))
+
+
+3.PUT: Se utiliza para actualizar un recurso existente en el servidor (Reemplazar todo el recurso)
+
+
+fetch("http://localhost:3000/pets/1", {
+  method: 'PUT',
+  body: JSON.stringify( { "id": 1, "nombre": "Max", "tipo": "Perro", "edad": 6 })
+  })
+.then(response => response.json())
+.then(data => console.log(data))
+
+
+
+4.PATCH: Se utiliza para actualizar parcialmente un recurso, (Solo envio los campos que quiero actualizar)
+
+fetch("http://localhost:3000/pets/1", {
+  method: 'PATCH',
+  body: JSON.stringify( { "nombre": "Maxi" })
+  })
+.then(response => response.json())
+.then(data => console.log(data))
+
+
+5.DELETE: Se utiliza para eliminar un recurso en el servidor
+
+fetch("http://localhost:3000/pets/21", {method: 'DELETE'})
+.then(response => response.json())
+.then(() => console.log("Elemento eliminado"))
