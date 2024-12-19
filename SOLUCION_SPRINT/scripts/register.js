@@ -13,15 +13,15 @@ registerForm.addEventListener("submit", async (event) => {
   // }
 
   const user = {
+    id: crypto.randomUUID(),
     name,
     email,
     password,
   };
 
-  console.log(user);
   const result = await registerUser(user);
   if (result) {
-    window.location.href = "../index.html";
+    window.location.href = "./login.html";
     alert("Usuario se registró con exito");
   } else {
     alert("Hubo error al registrarse");

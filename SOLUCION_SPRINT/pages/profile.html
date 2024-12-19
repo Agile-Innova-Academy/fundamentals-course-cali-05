@@ -4,8 +4,33 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="../styles/register.css">
 </head>
 <body>
+  <h1>Perfil</h1>
   
+  <div class="profile-picture">
+    <img src="../assets/userImage.png" alt="Profile Picture">
+  </div>
+  <section style="height: auto">
+    <h1 id="userName"></h1>
+    <form id="profileForm">
+      <label for="name">Nombre</label>
+      <input type="text" id="name" name="name" placeholder="Nombre" required>
+      <label for="password">Contraseña</label>
+      <input type="password" id="password" placeholder="***" name="password">
+      <button type="submit">Actualizar Información</button>
+    </form>
+  </section>
+
+  <nav class="navBar">
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="favorites.html">Favorites</a></li>
+      <li><a href="cart.html">Cart</a></li>
+      <li><a href="profile.html">Profile</a></li>
+    </ul>
+  </nav>
+  <script src="../scripts/profile.js" type="module"></script>
 </body>
 </html>

@@ -17,18 +17,22 @@ async function getDataPets() {
 
       carouselItem.innerHTML += `
           <div class="col-12 mb-4">
-              <div class="card shadow">
+              <div class="card shadow imageContainer">
                   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUSWjnSd77lh-vRDBbCR0LfDCWgAaLHB-0kw&s" className="card-img-top" alt="..." />
-                  <div class="card-body">
-                      <h5 class="card-title text-primary">${pet.nombre}</h5>
-                      <p class="card-text">
-                          <strong>Tipo:</strong> ${pet.tipo} <br>
-                          <strong>Edad:</strong> ${pet.edad}
-                      </p>
-                  </div>
               </div>
           </div>
       `
+
+
+  //     <div class="card-body">
+  //     <h5 class="card-title text-primary">${pet.nombre}</h5>
+  //     <p class="card-text">
+  //         <strong>Tipo:</strong> ${pet.tipo} <br>
+  //         <strong>Edad:</strong> ${pet.edad}
+  //     </p>
+  // </div>
+
+
       containerPets.appendChild(carouselItem);
     });
   } else {
