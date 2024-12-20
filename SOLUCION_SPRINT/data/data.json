@@ -4,121 +4,201 @@
       "id": "1",
       "nombre": "Max",
       "tipo": "Perro",
-      "edad": 5
+      "edad": 5,
+      "genero": "Macho",
+      "raza": "Labrador",
+      "color": "Amarillo",
+      "imagen": ""
     },
     {
       "id": "2",
       "nombre": "Luna",
       "tipo": "Gato",
-      "edad": 3
+      "edad": 3,
+      "genero": "Hembra",
+      "raza": "Siames",
+      "color": "Blanco y marrón",
+      "imagen": "../assets/cat1.png"
     },
     {
       "id": "3",
       "nombre": "Charlie",
       "tipo": "Perro",
-      "edad": 2
+      "edad": 2,
+      "genero": "Macho",
+      "raza": "Beagle",
+      "color": "Tricolor",
+      "imagen": ""
     },
     {
       "id": "4",
       "nombre": "Bella",
       "tipo": "Gato",
-      "edad": 4
+      "edad": 4,
+      "genero": "Hembra",
+      "raza": "Persa",
+      "color": "Gris",
+      "imagen": "../assets/cat2.png"
     },
     {
       "id": "5",
       "nombre": "Coco",
       "tipo": "Ave",
-      "edad": 1
+      "edad": 1,
+      "genero": "Macho",
+      "raza": "Periquito",
+      "color": "Verde y amarillo",
+      "imagen": ""
     },
     {
       "id": "6",
       "nombre": "Rocky",
       "tipo": "Perro",
-      "edad": 6
+      "edad": 6,
+      "genero": "Macho",
+      "raza": "Pastor Alemán",
+      "color": "Negro y marrón",
+      "imagen": ""
     },
     {
       "id": "7",
       "nombre": "Daisy",
       "tipo": "Conejo",
-      "edad": 2
+      "edad": 2,
+      "genero": "Hembra",
+      "raza": "Lop",
+      "color": "Blanco",
+      "imagen": ""
     },
     {
       "id": "8",
       "nombre": "Lola",
       "tipo": "Perro",
-      "edad": 3
+      "edad": 3,
+      "genero": "Hembra",
+      "raza": "Bulldog Francés",
+      "color": "Negro",
+      "imagen": ""
     },
     {
       "id": "9",
       "nombre": "Milo",
       "tipo": "Gato",
-      "edad": 1
+      "edad": 1,
+      "genero": "Macho",
+      "raza": "Bengalí",
+      "color": "Naranja y negro",
+      "imagen": ""
     },
     {
       "id": "10",
       "nombre": "Ruby",
       "tipo": "Ave",
-      "edad": 2
+      "edad": 2,
+      "genero": "Hembra",
+      "raza": "Cacatúa",
+      "color": "Blanca",
+      "imagen": ""
     },
     {
       "id": "11",
       "nombre": "Buddy",
       "tipo": "Perro",
-      "edad": 4
+      "edad": 4,
+      "genero": "Macho",
+      "raza": "Golden Retriever",
+      "color": "Dorado",
+      "imagen": ""
     },
     {
       "id": "12",
       "nombre": "Simba",
       "tipo": "Gato",
-      "edad": 5
+      "edad": 5,
+      "genero": "Macho",
+      "raza": "Maine Coon",
+      "color": "Marrón",
+      "imagen": ""
     },
     {
       "id": "13",
       "nombre": "Oscar",
       "tipo": "Hámster",
-      "edad": 1
+      "edad": 1,
+      "genero": "Macho",
+      "raza": "Ruso",
+      "color": "Gris",
+      "imagen": ""
     },
     {
       "id": "14",
       "nombre": "Mia",
       "tipo": "Gato",
-      "edad": 3
+      "edad": 3,
+      "genero": "Hembra",
+      "raza": "Angora",
+      "color": "Blanco",
+      "imagen": ""
     },
     {
       "id": "15",
       "nombre": "Toby",
       "tipo": "Perro",
-      "edad": 2
+      "edad": 2,
+      "genero": "Macho",
+      "raza": "Cocker Spaniel",
+      "color": "Marrón",
+      "imagen": ""
     },
     {
       "id": "16",
       "nombre": "Chico",
       "tipo": "Ave",
-      "edad": 4
+      "edad": 4,
+      "genero": "Macho",
+      "raza": "Canario",
+      "color": "Amarillo",
+      "imagen": ""
     },
     {
       "id": "17",
       "nombre": "Oliver",
       "tipo": "Conejo",
-      "edad": 2
+      "edad": 2,
+      "genero": "Macho",
+      "raza": "Rex",
+      "color": "Gris",
+      "imagen": ""
     },
     {
       "id": "18",
       "nombre": "Nala",
       "tipo": "Gato",
-      "edad": 1
+      "edad": 1,
+      "genero": "Hembra",
+      "raza": "Abisinio",
+      "color": "Naranja",
+      "imagen": ""
     },
     {
       "id": "19",
       "nombre": "Pepper",
       "tipo": "Hámster",
-      "edad": 2
+      "edad": 2,
+      "genero": "Hembra",
+      "raza": "Sirio",
+      "color": "Blanco y marrón",
+      "imagen": ""
     },
     {
       "id": "20",
       "nombre": "Rosie",
       "tipo": "Perro",
-      "edad": 3
+      "edad": 3,
+      "genero": "Hembra",
+      "raza": "Shih Tzu",
+      "color": "Blanco y negro",
+      "imagen": ""
     }
   ],
   "users": [
