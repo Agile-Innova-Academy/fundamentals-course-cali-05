@@ -12,6 +12,34 @@ export async function getPets() {
     }
 }
 
+export async function updatePets(updatePet) {
+    try {
+        const responseUpdatePet = await fetch(ENDPOINTS.pets+"/"+updatePet.id, {
+            method: "PUT",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify(updatePet)
+
+        })
+        return responseUpdatePet.ok
+    } catch (error) {
+        console.error("Error al actualizar la mascota:", error)
+        return false;
+    }
+}
+
+export async function deletePets(petId) {
+    try {
+        const responseDeletePet = await fetch(ENDPOINTS.pets+"/"+petId, {method: "DELETE"})
+        return responseDeletePet.ok
+    } catch (error) {
+        console.error("Error al Eliminar la mascota:", error)
+        return false;
+    }
+} 
+
+
 export async function getUsers() {
     try {
         const responsePet = await fetch(ENDPOINTS.users)
@@ -42,3 +70,4 @@ export async function registerUser(user) {
     }
 
 }
+

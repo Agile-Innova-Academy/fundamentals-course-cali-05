@@ -6,6 +6,10 @@ registerButton.addEventListener("click", function () {
   window.location.href = "./pages/register.html";
 });
 
+function redirectToDetails(petId){
+  window.location.href = `./pages/detail.html?pedId=${petId}`
+}
+
 async function getDataPets() {
   const containerPets = document.getElementById("carrusel");
   const pets = await getPets();
@@ -14,25 +18,19 @@ async function getDataPets() {
     pets.forEach((pet, index) => {
       const carouselItem = document.createElement("div");
       carouselItem.className = `carousel-item ${index === 0 ? "active" : ""}`;
+      const divImg = document.createElement("div");
+      divImg.className = "card shadow imageContainer"
+      const img = document.createElement("img");
+      img.src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUSWjnSd77lh-vRDBbCR0LfDCWgAaLHB-0kw&s"
+      img.alt = pet.nombre
+      img.className = "card-img-top"
 
-      carouselItem.innerHTML += `
-          <div class="col-12 mb-4">
-              <div class="card shadow imageContainer">
-                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUSWjnSd77lh-vRDBbCR0LfDCWgAaLHB-0kw&s" className="card-img-top" alt="..." />
-              </div>
-          </div>
-      `
+      img.addEventListener("click", ()  => {
+        window.location.href = `./pages/detail.html?petId=${pet.id}`
+      })
 
-
-  //     <div class="card-body">
-  //     <h5 class="card-title text-primary">${pet.nombre}</h5>
-  //     <p class="card-text">
-  //         <strong>Tipo:</strong> ${pet.tipo} <br>
-  //         <strong>Edad:</strong> ${pet.edad}
-  //     </p>
-  // </div>
-
-
+      divImg.appendChild(img)
+      carouselItem.appendChild(divImg)
       containerPets.appendChild(carouselItem);
     });
   } else {
@@ -41,6 +39,9 @@ async function getDataPets() {
 }
 
 document.addEventListener("DOMContentLoaded", getDataPets);
+
+
+
 
 // function redirigir(){
 //   window.location.href = "/pages/register.html"
