@@ -27,3 +27,15 @@ formulario.addEventListener('submit', async (e) => {
   //                               iterador               condición
   // const miExamen = examenes.filter((examen) => examen.nombre === 'Luisa Zuluaga')
 })
+
+// const boton = document.getElementById('botonSaludo')
+
+// boton.addEventListener('click', () => {
+//   alert('Hola')
+// })
+
+const boton2 = document.getElementById('botonApertura')
+
+boton2.addEventListener('click', () => {
+  alert('Adios')
+})
