@@ -1,7 +1,7 @@
 export const mostrarPaletas = (contenedor, datos) => {
-  console.log(contenedor)
   console.log(datos)
 
+  contenedor.innerHTML = '';
   datos.forEach((element) => {
     const div = document.createElement('div');
     div.classList.add('paleta');

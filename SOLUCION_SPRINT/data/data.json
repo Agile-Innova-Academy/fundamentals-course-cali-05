@@ -250,5 +250,11 @@
       "email": "margamrillo@gmail.com",
       "password": "murillo123"
     }
-  ]
+  ],
+  "config": {
+    "title": "Adopta una mascota",
+    "description": "Encuentra la mascota ideal para ti",
+    "keywords": "mascotas, adopción, animales",
+    "author": "Sebastian Luna"
+  }
 }
