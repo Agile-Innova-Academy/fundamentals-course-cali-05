@@ -255,7 +255,117 @@
       "categorie": "leche"
     }
   ],
-  "favoritos": [
-
+  "favoritos": [],
+  "empleados": [
+    {
+      "id": 1,
+      "name": "Juan Pérez",
+      "age": 25,
+      "city": "Madrid",
+      "active": true,
+      "scores": [
+        85,
+        90,
+        78
+      ],
+      "joined": "2023-01-15"
+    },
+    {
+      "id": 2,
+      "name": "Ana Gómez",
+      "age": 30,
+      "city": "Barcelona",
+      "active": false,
+      "scores": [
+        88,
+        76,
+        95
+      ],
+      "joined": "2022-11-20"
+    },
+    {
+      "id": 3,
+      "name": "Carlos López",
+      "age": 22,
+      "city": "Valencia",
+      "active": true,
+      "scores": [
+        70,
+        85,
+        89
+      ],
+      "joined": "2023-06-10"
+    },
+    {
+      "id": 4,
+      "name": "Lucía Martínez",
+      "age": 28,
+      "city": "Sevilla",
+      "active": false,
+      "scores": [
+        92,
+        87,
+        88
+      ],
+      "joined": "2022-09-05"
+    },
+    {
+      "id": 5,
+      "name": "Miguel Torres",
+      "age": 35,
+      "city": "Bilbao",
+      "active": true,
+      "scores": [
+        81,
+        77,
+        90
+      ],
+      "joined": "2021-12-01"
+    },
+    {
+      "id": 6,
+      "name": "Elena Ruiz",
+      "age": 26,
+      "city": "Granada",
+      "active": true,
+      "scores": [
+        84,
+        89,
+        91
+      ],
+      "joined": "2023-03-22"
+    },
+    {
+      "id": 7,
+      "name": "Sofía Hidalgo",
+      "age": 23,
+      "city": "Alicante",
+      "active": false,
+      "scores": [
+        75,
+        80,
+        86
+      ],
+      "joined": "2023-04-10"
+    },
+    {
+      "id": 8,
+      "name": "Andrés Fernández",
+      "age": 29,
+      "city": "Málaga",
+      "active": true,
+      "scores": [
+        89,
+        92,
+        88
+      ],
+      "joined": "2022-08-14"
+    },
+    {
+      "id": "d0f434a4-87dd-491a-9e37-f4160894e9f5",
+      "name": "Daniela",
+      "age": "28",
+      "city": "Cali"
+    }
   ]
 }
