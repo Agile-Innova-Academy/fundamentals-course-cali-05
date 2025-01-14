@@ -5,6 +5,7 @@ const contenedor = document.getElementById('contenedorPaletas');
 
 document.addEventListener('DOMContentLoaded', async () => {
   const paletas = await getData();
+  console.log(paletas)
   mostrarPaletas(contenedor, paletas);
 })
 
@@ -36,6 +37,6 @@ formulario.addEventListener('submit', async (e) => {
 
 const boton2 = document.getElementById('botonApertura')
 
-boton2.addEventListener('click', () => {
-  alert('Adios')
-})
+// boton2.addEventListener('click', () => {
+//   alert('Adios')
+// })
