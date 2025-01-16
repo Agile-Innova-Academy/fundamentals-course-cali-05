@@ -258,20 +258,7 @@
   "favoritos": [],
   "empleados": [
     {
-      "id": 1,
-      "name": "Juan Pérez",
-      "age": 25,
-      "city": "Madrid",
-      "active": true,
-      "scores": [
-        85,
-        90,
-        78
-      ],
-      "joined": "2023-01-15"
-    },
-    {
-      "id": 2,
+      "id": "2",
       "name": "Ana Gómez",
       "age": 30,
       "city": "Barcelona",
@@ -284,7 +271,7 @@
       "joined": "2022-11-20"
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Carlos López",
       "age": 22,
       "city": "Valencia",
@@ -297,7 +284,7 @@
       "joined": "2023-06-10"
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Lucía Martínez",
       "age": 28,
       "city": "Sevilla",
@@ -310,7 +297,7 @@
       "joined": "2022-09-05"
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Miguel Torres",
       "age": 35,
       "city": "Bilbao",
@@ -323,7 +310,7 @@
       "joined": "2021-12-01"
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "Elena Ruiz",
       "age": 26,
       "city": "Granada",
@@ -336,7 +323,7 @@
       "joined": "2023-03-22"
     },
     {
-      "id": 7,
+      "id": "7",
       "name": "Sofía Hidalgo",
       "age": 23,
       "city": "Alicante",
@@ -349,7 +336,7 @@
       "joined": "2023-04-10"
     },
     {
-      "id": 8,
+      "id": "8",
       "name": "Andrés Fernández",
       "age": 29,
       "city": "Málaga",
@@ -366,6 +353,12 @@
       "name": "Daniela",
       "age": "28",
       "city": "Cali"
+    },
+    {
+      "id": "8c51f27e-fbca-43e5-b686-3ff3165e9e33",
+      "name": "Sofia",
+      "age": "32",
+      "city": "bogota"
     }
   ]
 }

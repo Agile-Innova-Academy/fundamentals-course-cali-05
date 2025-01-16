@@ -33,6 +33,7 @@ ul {
   justify-content: space-between;
   margin: 0px 0px 0px 0px !important; 
   align-items: center;
+  margin-top: 4rem;
 }
 
 ul li a{
@@ -57,6 +58,7 @@ table {
   font-family: sans-serif;
   font-size: 0.8rem;
   letter-spacing: 1px;
+  margin-bottom: 4rem;
 }
 
 caption {
