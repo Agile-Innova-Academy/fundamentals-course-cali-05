@@ -93,3 +93,6 @@ tfoot th {
 tfoot td {
   font-weight: bold;
 }
+section {
+  margin-bottom: 4rem;
+}

@@ -311,9 +311,9 @@
     },
     {
       "id": "6",
-      "name": "Elena Ruiz",
-      "age": 26,
-      "city": "Granada",
+      "name": "pepita",
+      "age": "22",
+      "city": "lopez",
       "active": true,
       "scores": [
         84,
