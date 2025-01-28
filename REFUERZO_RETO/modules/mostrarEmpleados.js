@@ -10,10 +10,9 @@ export const mostrarEmpleados = (contenedor, datos) => {
         <td>${element.age}</td>
         <td>${element.city}</td>
         <td><button id='Eliminar${element.id}'>Eliminar</button></td>
-    
-      <td><button type="button" id=${element.id} class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal${element.id}">
-        Actualizar
-      </button></td>
+        <td><button type="button" id=${element.id} class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal${element.id}">
+          Actualizar
+        </button></td>
 
       <div class="modal fade" id="modal${element.id}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
@@ -44,11 +43,15 @@ export const mostrarEmpleados = (contenedor, datos) => {
 
     contenedor.appendChild(tr);
 
+
+    //ELIMINAR
     const buttonEliminar = document.getElementById(`Eliminar${element.id}`)
     buttonEliminar.addEventListener('click', async () => {
 
       await deleteData("http://localhost:3000/empleados", element.id)
     })
+
+    //ACTUALIZAR
     const buttonGuardar = document.getElementById(`Guardar${element.id}`)
     buttonGuardar.addEventListener('click', async () => {
 
@@ -65,6 +68,13 @@ export const mostrarEmpleados = (contenedor, datos) => {
 
       await patchData("http://localhost:3000/empleados", element.id,Actualizado)
     })
+
+     //AGREGAR FAVORITO
+     const botonFavoritos = document.getElementById(`Favorito${element.id}`)
+     botonFavoritos.addEventListener('click', async () => {
+ 
+       await postData("http://localhost:3000/favoritos", element)
+     })
   });
 }
 

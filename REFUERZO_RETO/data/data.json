@@ -352,13 +352,35 @@
       "id": "d0f434a4-87dd-491a-9e37-f4160894e9f5",
       "name": "Daniela",
       "age": "28",
-      "city": "Cali"
+      "city": "Cali",
+      "scores": [
+        89,
+        92,
+        88
+      ]
     },
     {
       "id": "8c51f27e-fbca-43e5-b686-3ff3165e9e33",
       "name": "Sofia",
       "age": "32",
-      "city": "bogota"
+      "city": "bogota",
+      "scores": [
+        89,
+        92,
+        88
+      ]
+    },
+    {
+      "id": "1c96ee77-0d38-4464-bde0-f71aa41a0b4a",
+      "name": "Dani Palacios",
+      "age": "28",
+      "city": "Cali",
+      "joined": "2024-03-21",
+      "scores": [
+        89,
+        92,
+        88
+      ]
     }
   ]
 }
